@@ -1,3 +1,43 @@
+THIS IS ALL VERY WORKD IN PROGRESS
+urls:
+https://www.dewestvlaamse.be/?s=query
+https://www.kava.be/aanbod/tariferingsdienst
+https://vlaamsapothekersnetwerk.be/
+https://pharmacy.brussels/
+https://kagi.com/search?q=+site%3Aadvrider.com
+https://www.kfkweb.be/index.php/homepagina
+https://www.ophaco.org/nl/
+https://kovag.be/over-kovag
+https://www.waseapothekers.be/
+https://baf.be/
+https://kovag.be/
+https://ipsa.be/login/index.php
+https://wildernest.be/
+https://www.apb.be/fr-BE/Rechercher?query=test
+https://www.bcfi.be/nl/
+https://www.bcfi.be/nl/keywords?q=merknaaaaaam&type=trade_family
+https://www.apotheek.nl/
+https://www.ugent.be/fw/nl/onderzoek/bioanalyse/farmzorg/websites.htm
+https://www.bcfi.be/nl
+https://www.farmacotherapeutischkompas.nl/
+https://www.domusmedica.be/richtlijnen
+https://richtlijnen.nhg.org/
+http://www.ebmpracticenet.be/nl
+https://www.ge-bu.nl/
+https://minerva-ebp.be/Home/index
+https://www.kinderformularium.nl/
+https://farmaka.bcfi.be/nl/formularium
+https://www.lareb.nl/mvm-kennis/
+https://www.thuisarts.nl/
+https://vza.be/bibliotheek/pletmedicatie
+https://coo.lumc.nl/TRC/redirect.aspx?lessonid=30
+https://trombosedienst-leiden.nl/interactie-tabel/
+https://crediblemeds.org/
+https://wiki.psychiatrienet.nl/wiki/Main_Page
+
+
+
+
 [
   {
     "s": "01net",
@@ -109391,5 +109431,94 @@
     "t": "fqm",
     "u": "https://frequentmiler.com/?s={{{s}}}",
     "c": "Shopping"
-  }
+  },
+  {
+    "s": "De Westvlaamse",
+    "d": "www.dewestvlaamse.be",
+    "t": "dewestvlaamse",
+    "u": "https://www.dewestvlaamse.be/?s={{{s}}}",
+    "c": "Research",
+    "sc": "Health"
+  },
+  {
+    "s": "Koninklijke Apothekersvereniging van Antwerpen (KAVA)",
+    "d": "www.kava.be",
+    "t": "kava",
+    "u": "https://www.kava.be/zoeken?s={{{s}}}",
+    "c": "Research",
+    "sc": "Health"
+  },
+  {
+    "s": "Brabants Apothekers Forum (BAF)",
+    "d": "www.baf.be",
+    "t": "baf",
+    "u": "https://baf.be/zoeken?term=test{{{s}}}",
+    "c": "Research",
+    "sc": "Health"
+  },
+  {
+    "s": "Kagi Search",
+    "d": "kagi.com",
+    "t": "van", # ALREADY TAKEN, CHOOSE SOMETHING ELSE. SUGGESTIONS?
+    "u": "/search?q={{{s}}}+site:vlaamsapothekersnetwerk.be",
+    "c": "Research",
+    "sc": "Health",
+    "ad": "vlaamsapothekersnetwerk.be"
+  },
+  {
+    "s": "KOVAG", # The long version of their acronym is never used in communications
+    "d": "www.kovag.be",
+    "t": "kovag",
+    "u": "https://www.kovag.be/zoeken?search_api_fulltext={{{s}}}",
+    "c": "Research",
+    "sc": "Health"
+  },
+  {
+    "s": "IPSA", #  nt done
+    "d": "www.ipsa.be",
+    "t": "ipsa",
+    "u": "https://www.kovag.be/zoeken?search_api_fulltext={{{s}}}",
+    "c": "Research",
+    "sc": "Health"
+  },
+  {
+    "s": "APB (nl)",
+    "d": "www.apb.be",
+    "t": "apb",
+    "u": "https://www.apb.be/nl-BE/Zoeken?query={{{s}}}",
+    "c": "Research",
+    "sc": "Health"
+  },
+  {
+    "s": "APB (fr)",
+    "d": "www.apb.be",
+    "t": "apbfr",
+    "u": "https://www.apb.be/fr-BE/Zoeken?query={{{s}}}",
+    "c": "Research",
+    "sc": "Health"
+  },
+  {
+    "s": "APB (fr)",
+    "d": "www.apb.be",
+    "t": "apbfr",
+    "u": "https://www.bcfi.be/nl/keywords?q={{{s}}}&type=substance",
+    "c": "Research",
+    "sc": "Health"
+  },
+  {
+    "s": "APB (fr)",
+    "d": "www.apb.be",
+    "t": "apbfr",
+    "u": "https://www.apb.be/fr-BE/Zoeken?query={{{s}}}",
+    "c": "Research",
+    "sc": "Health"
+  },
+  {
+    "s": "APB (fr)",
+    "d": "www.apb.be",
+    "t": "apbfr",
+    "u": "https://www.apb.be/fr-BE/Zoeken?query={{{s}}}",
+    "c": "Research",
+    "sc": "Health"
+  },
 ]
